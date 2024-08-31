@@ -1,6 +1,6 @@
 # E2E tests
 
-This is a repository that contains different examples of E2E testing solution including different tools and languages.
+This is a repository that contains different examples of E2E testing solutions including different tools and languages.
 
 More info in all subprojects.
 
