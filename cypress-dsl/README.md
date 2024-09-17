@@ -1,8 +1,8 @@
 # cypress-dsl
 
-'TODO' online app tests with use of Page Object Model and Domain Specific Language approach + cypress The idea is to
-prepare functions representing actions that end user can take in the UI. That creates set of behaviors for particular
-website that can be chained and read easily.
+'TODO' online app tests with use of Page Object Model and Domain Specific Language approach + cypress.  
+The idea is to prepare functions representing actions that end user can take in the UI. That creates set of behaviors
+for particular website that can be chained and read easily.
 
 Structure:
 
