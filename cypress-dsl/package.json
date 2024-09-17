@@ -1,0 +1,19 @@
+{
+  "name": "cypress-dsl",
+  "version": "1.0.0",
+  "description": "E2E tests for todo list using Domain Specific Language",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "format": "node_modules/.bin/prettier --write .",
+    "check": "node_modules/.bin/prettier --check ."
+  },
+  "author": "Grzegorz Cagara",
+  "license": "MIT",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "2.2.5",
+    "cypress": "^13.3.1",
+    "prettier": "3.0.3",
+    "typescript": "^5.2.2"
+  }
+}

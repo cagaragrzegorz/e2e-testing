@@ -1,4 +1,4 @@
-# cypress-basic
+# cypress-pom
 
 'TODO' online app tests with use of Page Object Model + cypress
 
