@@ -1,7 +1,6 @@
 import mainPage from '../../pages/mainPage'
 
 describe('app has basic functionality', () => {
-
   const secondTaskSelector: string = 'li[data-cy="todo"]:nth-child(2)'
 
   beforeEach(() => {

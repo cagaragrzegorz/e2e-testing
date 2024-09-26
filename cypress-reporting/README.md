@@ -14,8 +14,3 @@ JUnit xml are available in `results` folder.
 HTML report is available in `report` folder.
 
 Find more scripts in `package.json`.
-
-
-
-
-
