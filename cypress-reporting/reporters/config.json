@@ -1,0 +1,14 @@
+{
+  "reporterEnabled": "cypress-mochawesome-reporter, mocha-junit-reporter",
+  "cypressMochawesomeReporterReporterOptions": {
+    "charts": true,
+    "reportPageTitle": "Cypress Reporter",
+    "reportTitle": "Cypress E2E tests",
+    "embeddedScreenshots": true,
+    "inlineAssets": true,
+    "reportDir": "report"
+  },
+  "mochaJunitReporterReporterOptions": {
+    "mochaFile": "results/[suiteFilename].xml"
+  }
+}

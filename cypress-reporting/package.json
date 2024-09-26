@@ -1,0 +1,22 @@
+{
+  "name": "cypress-pom",
+  "version": "1.0.0",
+  "description": "E2E tests for todo list using POM pattern + reporting",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --reporter cypress-multi-reporters --reporter-options configFile=reporters/config.json",
+    "format": "node_modules/.bin/prettier --write .",
+    "check": "node_modules/.bin/prettier --check ."
+  },
+  "author": "Grzegorz Cagara",
+  "license": "MIT",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "2.2.5",
+    "cypress": "^13.3.1",
+    "cypress-mochawesome-reporter": "3.3.0",
+    "cypress-multi-reporters": "1.6.4",
+    "prettier": "3.0.3",
+    "typescript": "^5.2.2",
+    "mocha-junit-reporter": "2.2.1"
+  }
+}
