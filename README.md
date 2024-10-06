@@ -8,9 +8,10 @@ More info in all subprojects.
 
 ```bash
 .
-├── cypress-basic // 'TODO' online app tests with pure cypress
-├── cypress-dsl // 'TODO' online app tests in cypress using POM + DSL
-├── cypress-pom // 'TODO' online app tests in cypress using POM
+├── cypress-basic     // 'TODO' online app tests with pure cypress
+├── cypress-cucumber  // 'TODO' online app tests in cypress using POM and Cucumber
+├── cypress-dsl       // 'TODO' online app tests in cypress using POM + DSL
+├── cypress-pom       // 'TODO' online app tests in cypress using POM
 ├── cypress-reporting // 'TODO' online app tests in cypress using POM + reporting
 ├── LICENSE
 └── README.md

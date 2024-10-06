@@ -1,0 +1,23 @@
+{
+  "name": "cypress-pom",
+  "version": "1.0.0",
+  "description": "E2E tests for todo list using Cucumber/Gherkin syntax",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "format": "node_modules/.bin/prettier --write .",
+    "check": "node_modules/.bin/prettier --check ."
+  },
+  "author": "Grzegorz Cagara",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.3.1",
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.5",
+    "@cypress/browserify-preprocessor": "3.0.2",
+    "prettier": "3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

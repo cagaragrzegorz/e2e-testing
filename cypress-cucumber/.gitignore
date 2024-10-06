@@ -1,0 +1,10 @@
+.idea/
+/node_modules/
+/yarn-error.log
+/yarn.lock
+# Cypress
+cypress/results
+cypress/screenshots
+cypress/downloads
+cypress/videos
+reports/
