@@ -1,5 +1,4 @@
-import { test, expect, defineConfig, PlaywrightTestOptions } from '@playwright/test'
-import PlaywrightConfig from '../../playwright.config'
+import { test, expect } from '@playwright/test'
 
 test.describe('app has basic functionality', () => {
   test.beforeEach(async ({ page }) => {
@@ -69,7 +68,7 @@ test.describe('app has basic functionality', () => {
     await expect(await page.getByTestId('todo').filter({ hasText: 'Second task' })).toHaveCSS('opacity', '0')
   })
 
-  test('should display all tasks only', { tag: '@basic' }, async ({ page }) => {
+  test('should display all tasks', { tag: '@basic' }, async ({ page }) => {
     const toDoInput = page.getByTestId('add-todo')
     await toDoInput.fill('First task')
     await toDoInput.press('Enter')
