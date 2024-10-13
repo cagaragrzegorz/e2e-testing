@@ -1,0 +1,22 @@
+{
+  "name": "playwright-basic",
+  "version": "1.0.0",
+  "description": "E2E tests for todo list using pure Playwright",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:headed": "npx playwright test --headed",
+    "codegen": "npx playwright codegen",
+    "report": "npx playwright show-report",
+    "format": "node_modules/.bin/prettier --write .",
+    "check": "node_modules/.bin/prettier --check ."
+  },
+  "author": "Grzegorz Cagara",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "1.43.1",
+    "@types/node": "20.12.4",
+    "prettier": "3.0.3",
+    "typescript": "^5.2.2"
+  }
+}

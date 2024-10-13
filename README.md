@@ -13,6 +13,7 @@ More info in all subprojects.
 ├── cypress-dsl       // 'TODO' online app tests in cypress using POM + DSL
 ├── cypress-pom       // 'TODO' online app tests in cypress using POM
 ├── cypress-reporting // 'TODO' online app tests in cypress using POM + reporting
+├── playwright-basic
 ├── LICENSE
 └── README.md
 ```
